@@ -3,16 +3,14 @@
 // 計算式：[体重(kg)]÷[身長(m)×身長(m)]
 
 // 体重
-let bodyWeight;
+let bodyWeight = 68;
 // 身長
-let height;
+let height = 1.7;
+// BMI
+let bmi = bodyWeight / (height * height);
 
-bodyWeight=68;
-height=1.7;
+// 表示
+console.log(bodyWeight);
+console.log(height);
+console.log(bmi);
 
-// 出力
-console.log(bodyWeight); 
-console.log(height); 
-
-// console.log(体重(kg)/身長(m)×身長(m));
-console.log(bodyWeight/height*height); 
