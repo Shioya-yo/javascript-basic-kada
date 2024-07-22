@@ -1,4 +1,4 @@
-const date = new Date("2023-08-22");
+const date = new Date();
 const [year, month, day] = [
   date.getFullYear(),
   // +1にしないと1月から始まらない
